@@ -101,7 +101,7 @@ fn main() {
     // Probably need to add error handling!
     /*
      *   - Error handling is critical; it is worth spending a lot of time
-     *   investing in it!
+     * investing in it!
      */
     let cards = deck.deal(3);
     // or what happens if we do:
