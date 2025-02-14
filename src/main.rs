@@ -38,7 +38,7 @@ struct Deck {
  */
 // Adding functions to our struct.
 impl Deck {
-    // Associated Function
+    // Associated Functions
     fn new() -> Self {
         // List of suits
         let suits = ["hearts", "spades", "diamonds"];
@@ -63,7 +63,7 @@ impl Deck {
         Deck { cards }
     }
 
-    // Method, can be called on a struct instance.
+    // Methods, can be called on a struct instance.
     fn shuffle(&mut self) {
         // Random Number Generator
 
